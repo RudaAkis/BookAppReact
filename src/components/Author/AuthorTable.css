@@ -1,0 +1,14 @@
+table {
+	color: #d7d9d9;
+	font-size: 2em;
+	margin: 0 auto;
+}
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+	border: 0.2em solid white;
+	border-collapse: collapse;
+}
