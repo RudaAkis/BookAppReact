@@ -5,7 +5,7 @@ import axios from "../AxiosConfig.js";
 
 function AuthorPage() {
 	//Use State I use to store the authorId that user selects and change it via the <Select>
-	const [selectedAuthorId, setSelectedAuthorId] = useState(0);
+	const [selectedAuthorId, setSelectedAuthorId] = useState(1);
 	const [authors, setAuthors] = useState([]);
 
 	useEffect(() => {

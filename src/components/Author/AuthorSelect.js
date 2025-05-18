@@ -1,5 +1,7 @@
 import "./AuthorSelect.css";
 function AuthorSelect({ selectedAuthorId, setSelectedAuthorId, authors }) {
+
+
 	const handleChange = (event) => {
 		setSelectedAuthorId(Number(event.target.value)); // Convert to number if ID is numeric
 	};
@@ -14,7 +16,7 @@ function AuthorSelect({ selectedAuthorId, setSelectedAuthorId, authors }) {
 					))}
 				</select>
 			</div>
-			<button>Find books</button>
+			{/* <button>Find books</button> */}
 		</>
 	);
 }
